@@ -11,3 +11,6 @@ You can run "git diff" without an arguments. That will compare the files in your
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Branches are helpful when you want to make changes to the code but want to keep the original working branch in tact. For instance, you might want to use this if you are creating a new experimental version of the program. Or perhaps if you are working on an optional feature and want both versions available. In these cases, you can create and label a new branch and work on that version. The original master version will remain unchanged.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams show the "parent" versions of each commit. That allows you to see how the versions are connected and see at which commit they diverged from the master branch.

@@ -7,4 +7,7 @@ The working directory contains all the files in the directory (with or without v
 I'm guessing that the value of staging area is that it allows you to select which files you want to include in your commit. You don't have to include them all.
 
 How can you use the staging area to make sure you have one commit per logical change?
-You can run "git diff" without an arguments. That will compare the files in your working directory with the ones in the staging area. Any changes will be highlighted, so you can see what has changed and what will be committed in the next commit. You can also run "git diff --staged" to compare the files in the staging area with the most recent commit to check for changes. 
+You can run "git diff" without an arguments. That will compare the files in your working directory with the ones in the staging area. Any changes will be highlighted, so you can see what has changed and what will be committed in the next commit. You can also run "git diff --staged" to compare the files in the staging area with the most recent commit to check for changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are helpful when you want to make changes to the code but want to keep the original working branch in tact. For instance, you might want to use this if you are creating a new experimental version of the program. Or perhaps if you are working on an optional feature and want both versions available. In these cases, you can create and label a new branch and work on that version. The original master version will remain unchanged.

@@ -17,3 +17,6 @@ The diagrams show the "parent" versions of each commit. That allows you to see h
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging two branches together creates a new commit that combines all the changes in the two branches. The new version now becomes the "Head" for whatever branch was currently checked out. All the history of both paths are saved. We represent it as a new node with parent arrows back to the tips of both branches. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git's automatic merging combines two branch versions when it's safe to do so. This saves the user a lot of work. But when it's not obvious what Git should do, it punts back to the user. Fortunately, Git provides hints to the user by highlighting the areas of code that contain the conflict and the "parent" version in the nearest common ancestor. Then the user can decide how best to resolve the conflict and which of the three versions (parent, branch1, or branch2) to keep. Having to do the merges manually for all changes would be tedious at best. 

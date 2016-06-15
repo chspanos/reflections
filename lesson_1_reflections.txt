@@ -1,0 +1,20 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Diff automatically highlighted the portions of the files that have changed. This helped me to more easily find the error, since I only had to compare small portions of the code instead of the entire files.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+If you had access to previous versions, you could easily save changes and different versions of the code as new features were added and tested. Then if you wanted to go back to a previous version, it would be easy to find and restore. You would also have a documented trail of developments in your code.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+The Pros of manually choosing when to create a commit are that the versions that you create are meaningful. Specifically, you commit a new version whenever you've made a logical change in the code. The cons are that you have to use your judgment and actually remember to do this. Having versions created automatically does save the code at regular intervals, but the versions are not as meaningful. If done too often, you could generate too many versions of the code.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git is designed for version control for programs. It's fairly common for complex programs to be split across several files; therefore, you would want a version control system that groups related files together and records changes to them as a group rather than separately. 
+
+How can you use the commands git log and git diff to view the history of files?
+Go to the directory that contains your repository. Then run "git log" to print a log of all the commits recorded for this repository. To view the differences between two different versions, type "git diff version_ID1 version_ID2". This command will show the changes made to the files. To get colored output, which makes the changes really easy to spot (green for additions and red for deletions), execute the command "git config --global color.ui auto" before doing the previous two steps. To exit either the log or the differences, type "q".
+
+How might using version control make you more confident to make changes that could break something?
+With version control, you always know that you can get back to a version that is working correctly. This frees you to experiment with changes, knowing that you can alway revert to the previous version if it doesn't work out.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Whatever I need to do for this class. And eventually for whatever I end up coding.

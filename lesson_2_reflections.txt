@@ -14,3 +14,6 @@ Branches are helpful when you want to make changes to the code but want to keep 
 
 How do the diagrams help you visualize the branch structure?
 The diagrams show the "parent" versions of each commit. That allows you to see how the versions are connected and see at which commit they diverged from the master branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches together creates a new commit that combines all the changes in the two branches. The new version now becomes the "Head" for whatever branch was currently checked out. All the history of both paths are saved. We represent it as a new node with parent arrows back to the tips of both branches. 

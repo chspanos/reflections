@@ -15,3 +15,6 @@ You us clones to copy repositories from GitHub to your local computer or
 to make a local copy of a repository on your computer.
 You use branches to create different versions of your code within your local repository.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+This helps git track all the changes made since the last push. Then when you need to synch the local 
+version with the remote version, git can detect how they differ and how to merge them.

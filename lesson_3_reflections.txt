@@ -18,3 +18,10 @@ You use branches to create different versions of your code within your local rep
 What is the benefit of having a copy of the last known state of the remote stored locally?
 This helps git track all the changes made since the last push. Then when you need to synch the local 
 version with the remote version, git can detect how they differ and how to merge them.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Since I don't have any other system besides Git available to me now for version control, I don't know 
+how I would collaborate without it. I suppose I would have to either email the files back and forth
+or put them up on another shared platform, such as Google docs. But without systematic version 
+control to track software changes, this would be inefficient and error prone.
+

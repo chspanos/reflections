@@ -25,3 +25,10 @@ how I would collaborate without it. I suppose I would have to either email the f
 or put them up on another shared platform, such as Google docs. But without systematic version 
 control to track software changes, this would be inefficient and error prone.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+If you are working on a project jointly with others, you would probably want to make your changes
+in a separate branch rather than working on the master. That way your changes wouldn't mess things
+up for others working on the same piece of code. If you were working on a solo project, you could probably
+work directly in the master. Even then, you might want a separate branch, such as if you were working 
+on a new feature and wanted to keep the master intact.
+Working directly in the master is generally easier, but that wouldn't work well in a collaborative situation.
